@@ -5,3 +5,6 @@ out/
 # IDE settings
 .vscode/
 .idea/
+
+# Mac system files
+.DS_Store
