@@ -1,0 +1,33 @@
+        Feul Calculator
+ * User enters diesel or petrol.
+ * User enters distance in kms.
+ * User enters fuel consumption rate (litres per 100kms).
+ * Method fetches diesel/petrol price.
+ * Method calculates diesel/petrol * kms.
+ * Main returns fuel_type price.
+ * Main returns further fuel info.
+
+Classes:
+ * Main:
+    - Initialises instances of the other objects/classes
+    - Displays a greeting
+    - Asks for user input
+    - Uses user input to get fuel info & price (petrol/diesel)
+    - Ends with a goodbye
+ * FuelInfo:
+    - Acts as an API keeping additional fuel info.
+ * FuelPrice:
+    - Acts as an API keeping fuel prices.
+ * CalcFuelPrice
+    - Manages how fuel price is calculated
+
+
+-------------------------------------------------------------------------
+AI Search:                                                               |
+is there a way to create a reusable bit of code for greetings. like as a |
+class? then i can call it in any project to be the beginning and its.    |
+fetches the project's name from the project folder name. like if the     |
+greeting is hello. welcome to <app name>:                                |
+then the app name are parameters which it automatically gets from the    |
+folder name                                                              |
+-------------------------------------------------------------------------
