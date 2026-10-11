@@ -1,0 +1,7 @@
+# Compiled class files
+bin/
+out/
+
+# IDE settings
+.vscode/
+.idea/
